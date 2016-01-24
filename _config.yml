@@ -1,29 +1,41 @@
-name: Mastermind Century Group
-favicon: null
-layout_spectrum: 0.8377454930450767
-typography_spectrum: 0.020038899965584278
 title: Blog
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 1
+  brandStrength: 0.3293122434988618
+  lightness: 1
   brandColors:
     - '#9D2D3C'
     - '#DDE4DD'
     - '#BCAB47'
     - '#6B574B'
     - '#160600'
-  brandStrength: 0.3293122434988618
-  lightness: 0.3031487560365349
-  saturation: 0.48530563013628125
-  rhythmicContrast: 0.7983267216477543
-purpose: []
+  rhythmicContrast: 1
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: Mastermind Century Group
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.07526882
+layout_spectrum: 1
